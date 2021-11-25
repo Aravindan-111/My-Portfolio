@@ -1,7 +1,7 @@
 import React from "react";
 import { AttentionSeeker } from "react-awesome-reveal";
-import helloLight from "../media/hello-light.jpeg";
-import helloDark from "../media/hello-dark.jpeg";
+// import helloLight from "../media/hello-light.jpeg";
+// import helloDark from "../media/hello-dark.jpeg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";

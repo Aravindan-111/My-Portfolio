@@ -1,11 +1,9 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./styles.css";
-import connectLight from "../media/connect-light.png";
-import connectDark from "../media/connect-dark.png";
 // import resume from "https://drive.google.com/file/d/1HvimaQEhDm57V9aZ4f2eIJRYG3Jai51p/view?usp=sharing";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -34,7 +32,7 @@ const About = ({ darkMode }) => {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+    this.el.innerHTML = '<span className="wrap">' + this.txt + "</span>";
 
     var that = this;
     var delta = 300 - Math.random() * 100;
@@ -120,12 +118,6 @@ const About = ({ darkMode }) => {
                       View Resume
                     </Button>
                   </a>
-                  <a
-                    href={
-                      "https://drive.google.com/file/d/1HvimaQEhDm57V9aZ4f2eIJRYG3Jai51p/view?usp=sharing"
-                    }
-                    download
-                  ></a>
                 </Card.Body>
               </Card>
             </Col>
