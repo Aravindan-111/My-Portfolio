@@ -1,5 +1,10 @@
-import React from "react";
+import { React } from "react";
 import { Fade } from "react-awesome-reveal";
+// import emailjs from "emailjs-com";
+// import swal from "sweetalert";
+// import contactLight from "../media/hello-light.jpeg";
+// import contactDark from "../media/hello-dark.jpeg";
+// import Form from "react-bootstrap/Form";
 // import Button from "react-bootstrap/esm/Button";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";

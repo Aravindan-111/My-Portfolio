@@ -40,8 +40,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={tcd} />
                           <Card.Body>
@@ -108,8 +108,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={gotg} />
                           <Card.Body>
@@ -192,8 +192,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={ca} />
                           <Card.Body>
@@ -263,8 +263,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={rfp} />
                           <Card.Body>
@@ -326,8 +326,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={dsc} />
                           <Card.Body>
@@ -395,8 +395,8 @@ const Experience = ({ darkMode }) => {
                 >
                   <br></br>
                   <center>
-                    <div className="flip-card">
-                      <div className="flip-card-inner">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
                         <div className="flip-card-front">
                           <Card.Img variant="top" src={scr} />
                           <Card.Body>
