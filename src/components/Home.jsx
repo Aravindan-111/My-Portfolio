@@ -20,6 +20,7 @@ const Home = ({ darkMode }) => {
               I am a&nbsp;
               <span
                 class="txt-rotate"
+                className="text-rotate"
                 data-period="2000"
                 data-rotate='[ "React JS", "Node JS", "JavaScript", "HTML"]'
               ></span>
