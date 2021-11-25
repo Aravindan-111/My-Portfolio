@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./styles.css";
-// import connectLight from "../media/connect-light.png";
+import connectLight from "../media/aravind.jpg";
 // import connectDark from "../media/connect-dark.png";
 // import resume from "https://drive.google.com/file/d/1HvimaQEhDm57V9aZ4f2eIJRYG3Jai51p/view?usp=sharing";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -146,11 +146,11 @@ const About = ({ darkMode }) => {
                       Aravindan
                     </Button>
                   </a>
-                  {/* <img
-                    src={darkMode ? connectDark : connectLight}
+                  <img
+                    src={connectLight}
                     alt="connect"
                     className="connect-img img-fluid animated"
-                  /> */}
+                  />
                 </Card.Body>
               </Card>
             </Col>

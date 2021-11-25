@@ -79,7 +79,7 @@ const Skills = ({ darkMode }) => {
                 <Card.Body>
                   <Card.Title>Technologies</Card.Title>
                   <Card.Text>
-                    ReactJS, NodeJS, MongoDB, JavaScript, HTML, CSS, Bootstrap,
+                    ReactJS, NodeJS, MongoDB, JavaScript, HTML, CSS, Bootstrap
                   </Card.Text>
                 </Card.Body>
               </Card>

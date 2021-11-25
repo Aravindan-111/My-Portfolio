@@ -11,6 +11,7 @@ const Footer = () => {
         <br></br>
         <small>Illustrations by undraw.co</small>
       </p>
+      <br></br>
     </div>
   );
 };
