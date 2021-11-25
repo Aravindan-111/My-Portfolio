@@ -19,8 +19,7 @@ const Home = ({ darkMode }) => {
             <h2 className="lead" align="center">
               I am a&nbsp;
               <span
-                class="txt-rotate"
-                className="text-rotate"
+                className="txt-rotate"
                 data-period="2000"
                 data-rotate='[ "React JS", "Node JS", "JavaScript", "HTML"]'
               ></span>
