@@ -1,8 +1,7 @@
-import { useState } from "react";
+// import { useState } from "react";
 import React from "react";
 import { Fade, Zoom } from "react-awesome-reveal";
 import dsc from "../media/forgot.png";
-// import scr from "../media/blog.png";
 import gotg from "../media/blog.png";
 import rfp from "../media/crud.png";
 import ca from "../media/restaurant.png";
@@ -15,11 +14,6 @@ import Card from "react-bootstrap/esm/Card";
 // import Modal from "react-bootstrap/Modal";
 
 const Experience = ({ darkMode }) => {
-  // const [show, setShow] = useState(false);
-
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
       <br></br>
