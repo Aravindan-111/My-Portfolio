@@ -27,226 +27,175 @@ const Experience = ({ darkMode }) => {
           <div className="main_con">
             <Zoom>
               <Row>
-                <Col lg={4} sm={12}>
-                  <Card
-                    align="center"
-                    className="exp"
-                    data-theme={darkMode ? "dark" : "light"}
-                  >
-                    <br></br>
-                    <center>
-                      <div class="flip-card">
-                        {/* <div class="flip-card-inner"> */}
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={tcd} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Ecommerce Application
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                An Ecommerce site for Cosmetic and Makeup
-                                products built using ReactJs, NodeJs and
-                                MongoDB.
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        {/* </div> */}
-                      </div>
-                    </center>
-                    <br></br>
-                    <div>
-                      <a
-                        href="https://aravind-ecommerce-client.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <Button
-                          variant={darkMode ? "outline-light" : "outline-dark"}
-                          className="sbtn view"
-                        >
-                          Deployed Site
-                        </Button>
-                      </a>
-                      <div>
-                        <a
-                          href="https://github.com/Aravindan-111/ecommerce-client"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn view"
-                          >
-                            Front-End
-                          </Button>
-                        </a>
-                        <a
-                          href="https://github.com/Aravindan-111/ecommerce-server"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn"
-                          >
-                            Back-End
-                          </Button>
-                        </a>
-                      </div>
-                    </div>
-                    <br></br>
-                  </Card>
-                </Col>
-
-                <Col lg={4} sm={12}>
-                  <Card
-                    align="center"
-                    className="exp"
-                    data-theme={darkMode ? "dark" : "light"}
-                  >
-                    <br></br>
-                    <center>
-                      <div class="flip-card">
-                        {/* <div class="flip-card-inner"> */}
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={gotg} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Blog Application
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                A Simple Blog Application where user can
-                                register, login and post Blogs
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-                        {/* </div> */}
-                      </div>
-                    </center>
-                    <br></br>
-                    <div>
-                      <a
-                        href="https://mern-blog-aravind.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <Button
-                          variant={darkMode ? "outline-light" : "outline-dark"}
-                          className="sbtn"
-                        >
-                          Deployed Site
-                        </Button>
-                      </a>
-                      <div>
-                        <a
-                          href="https://github.com/Aravindan-111/Mern-Blog"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn view"
-                          >
-                            Front-End
-                          </Button>
-                        </a>
-                        <a
-                          href="https://github.com/Aravindan-111/Mern-Blog-server"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <Button
-                            variant={
-                              darkMode ? "outline-light" : "outline-dark"
-                            }
-                            className="sbtn"
-                          >
-                            Back-End
-                          </Button>
-                        </a>
-                      </div>
-                    </div>
-                    <br></br>
-                  </Card>
-                </Col>
-                <Col lg={4} sm={12}>
-                  <Card
-                    align="center"
-                    className="exp"
-                    data-theme={darkMode ? "dark" : "light"}
-                  >
-                    <br></br>
-                    <center>
-                      <div class="flip-card single">
-                        {/* <div class="flip-card-inner"> */}
-                        <div className="flip-card-front">
-                          <Card.Img variant="top" src={ca} />
-                          <Card.Body>
-                            <Card.Title align="center">
-                              Restaurant Application
-                            </Card.Title>
-                            <Card.Text>
-                              <p align="center">
-                                A Single Page Restaurant Application using React
-                                JS. JS
-                              </p>
-                            </Card.Text>
-                          </Card.Body>
-                        </div>
-
-                        {/* </div> */}
-                      </div>
-                    </center>
-                    <br></br>
-                    <div>
-                      <a
-                        href="https://restaurant-react-aravind.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <Button
-                          variant={darkMode ? "outline-light" : "outline-dark"}
-                          className="sbtn view"
-                        >
-                          Deployed Site
-                        </Button>
-                      </a>
-                      <a
-                        href="https://github.com/Aravindan-111/Restaurant-React"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <Button
-                          variant={darkMode ? "outline-light" : "outline-dark"}
-                          className="sbtn"
-                        >
-                          Github Repo
-                        </Button>
-                      </a>
-                    </div>
-                    <br></br>
-                  </Card>
-                </Col>
-              </Row>
-            </Zoom>
-            <br></br>
-            <Zoom>
-              <div className="last">
-                <Row>
+                <div className="last">
                   <Col lg={4} sm={12}>
                     <Card
                       align="center"
-                      className="exp"
+                      className="Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div class="flip-card">
+                          {/* <div class="flip-card-inner"> */}
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={tcd}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Ecommerce Application
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  An Ecommerce site for Cosmetic and Makeup
+                                  products built using ReactJs, NodeJs and
+                                  MongoDB.
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+                          {/* </div> */}
+                        </div>
+                      </center>
+                      <br></br>
+                      <div>
+                        <a
+                          href="https://aravind-ecommerce-client.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn view"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <div>
+                          <a
+                            href="https://github.com/Aravindan-111/ecommerce-client"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn view"
+                            >
+                              Front-End
+                            </Button>
+                          </a>
+                          <a
+                            href="https://github.com/Aravindan-111/ecommerce-server"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Back-End
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+
+                  <Col lg={4} sm={12}>
+                    <Card
+                      align="center"
+                      className="exp Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div class="flip-card">
+                          {/* <div class="flip-card-inner"> */}
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={gotg}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Blog Application
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  A Simple Blog Application where user can
+                                  register, login and post Blogs
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+                          {/* </div> */}
+                        </div>
+                      </center>
+                      <br></br>
+                      <div>
+                        <a
+                          href="https://mern-blog-aravind.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <div>
+                          <a
+                            href="https://github.com/Aravindan-111/Mern-Blog"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn view"
+                            >
+                              Front-End
+                            </Button>
+                          </a>
+                          <a
+                            href="https://github.com/Aravindan-111/Mern-Blog-server"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <Button
+                              variant={
+                                darkMode ? "outline-light" : "outline-dark"
+                              }
+                              className="sbtn"
+                            >
+                              Back-End
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+                  <Col lg={4} sm={12}>
+                    <Card
+                      align="center"
+                      className="exp Fi"
                       data-theme={darkMode ? "dark" : "light"}
                     >
                       <br></br>
@@ -254,7 +203,84 @@ const Experience = ({ darkMode }) => {
                         <div class="flip-card single">
                           {/* <div class="flip-card-inner"> */}
                           <div className="flip-card-front">
-                            <Card.Img variant="top" src={rfp} />
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={ca}
+                            />
+                            <Card.Body>
+                              <Card.Title align="center">
+                                Restaurant Application
+                              </Card.Title>
+                              <Card.Text>
+                                <p align="center">
+                                  A Single Page Restaurant Application using
+                                  React JS. JS
+                                </p>
+                              </Card.Text>
+                            </Card.Body>
+                          </div>
+
+                          {/* </div> */}
+                        </div>
+                      </center>
+                      <br></br>
+                      <div>
+                        <a
+                          href="https://restaurant-react-aravind.netlify.app/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn view"
+                          >
+                            Deployed Site
+                          </Button>
+                        </a>
+                        <a
+                          href="https://github.com/Aravindan-111/Restaurant-React"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <Button
+                            variant={
+                              darkMode ? "outline-light" : "outline-dark"
+                            }
+                            className="sbtn"
+                          >
+                            Github Repo
+                          </Button>
+                        </a>
+                      </div>
+                      <br></br>
+                    </Card>
+                  </Col>
+                </div>
+              </Row>
+            </Zoom>
+            <br></br>
+            <Zoom>
+              <Row>
+                <div className="last">
+                  <Col lg={4} sm={12}>
+                    <Card
+                      align="center"
+                      className="exp Fi"
+                      data-theme={darkMode ? "dark" : "light"}
+                    >
+                      <br></br>
+                      <center>
+                        <div class="flip-card single">
+                          {/* <div class="flip-card-inner"> */}
+                          <div className="flip-card-front">
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={rfp}
+                            />
                             <Card.Body>
                               <Card.Title align="center">
                                 CRUD Operation
@@ -308,7 +334,7 @@ const Experience = ({ darkMode }) => {
                   <Col lg={4} sm={12}>
                     <Card
                       align="center"
-                      className="exp"
+                      className="exp Fi"
                       data-theme={darkMode ? "dark" : "light"}
                     >
                       <br></br>
@@ -316,7 +342,11 @@ const Experience = ({ darkMode }) => {
                         <div class="flip-card">
                           {/* <div class="flip-card-inner"> */}
                           <div className="flip-card-front">
-                            <Card.Img variant="top" src={dsc} />
+                            <Card.Img
+                              className="image"
+                              variant="top"
+                              src={dsc}
+                            />
                             <Card.Body>
                               <Card.Title align="center">
                                 Forgot Password
@@ -384,8 +414,8 @@ const Experience = ({ darkMode }) => {
                       <br></br>
                     </Card>
                   </Col>
-                </Row>
-              </div>
+                </div>
+              </Row>
             </Zoom>
           </div>
         </Container>
