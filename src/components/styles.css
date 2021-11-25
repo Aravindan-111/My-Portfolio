@@ -203,7 +203,9 @@ strong,
 .view {
   margin-right: 1rem;
 }
-
+.single {
+  height: 22.3rem;
+}
 .ph {
   background-color: transparent;
   border-width: 1px;
@@ -215,6 +217,10 @@ strong,
   height: 150px;
   width: auto;
   margin-left: 35px;
+}
+.last {
+  /* display: flex; */
+  margin-left: 20rem;
 }
 .contact-text {
   color: var(--text-color);
